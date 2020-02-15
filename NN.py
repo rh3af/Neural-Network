@@ -43,10 +43,10 @@ if __name__ == "__main__":
     print("synaptic weights after training:")
     print(neural_network.synaptic_weights)
     
-    A =  str(input("input 1: "))
-    B =  str(input("input 2: "))
+    B =  str(input("input 1: "))
+    A =  str(input("input 2: "))
     C =  str(input("input 3: "))    
     
-    print("New : input data= ", A, B, C)
+    print("New : input data= ", B, A, C)
     print("output data: ")
-    print(neural_network.thx(np.array([A, B, C])))
+    print(neural_network.thx(np.array([B, A, C])))
